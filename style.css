@@ -114,6 +114,12 @@ header.p-section {
 
 .btn-group-sm>.btn, .btn-sm {
   padding: .30rem .75rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-group-sm > .btn:hover,
+.btn-sm:hover {
+  background-color: gray; /* Darker color on hover */
 }
 
 .testimonial-item {
